@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+nav img {
+  width: 90px;
+  height: 90px;
+  object-fit: contain;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+nav ul li {
+  list-style: none;
+  margin-left: 30px;
+}
+
+nav ul li a {
+  color: brown;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a button {
+  padding: 10px;
+  margin-left: 20px;
+  background-color: brown;
+  border: none;
+  color: white;
+  border-radius: 30px;
+}
+
+.main {
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.811),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(images/merch1.jpg);
+
+  height: 400px;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.main h2 {
+  font-size: 50px;
+  width: 50%;
+  padding-top: 150px;
+  color: #ffffff;
+  padding-left: 30px;
+}
+
+.merch h2 {
+  text-align: center;
+  padding-top: 60px;
+}
+
+.merch .merchcollections{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.merch .merchcollections img{
+    width: 300px;
+    height: 300px;
+    object-fit: contain;
+    border-radius: 20px;
+    margin-top: 30px;
+}

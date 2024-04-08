@@ -1,0 +1,125 @@
+/* *{
+ margin:0; 
+ padding:0;  
+}
+.container{
+    height: 100vh;
+    width: 100%; */
+    /* background-color: blue; */
+    /* background-image: url(images/andy-li-RndRFJ1v1kk-unsplash.jpg);
+    background-position: center
+
+}
+header{
+    text-align: center;
+    color: white;
+    width: 1024px;
+    margin: auto;  
+}
+.nav{
+    background: white;
+    text-align: center;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    width: 1024px; 
+    margin: auto;
+    padding-left: 15px;
+
+   
+
+}
+.nav a{
+    color: brown;
+    padding-left: 20px;
+    text-decoration: none;
+}
+.nav a:hover{
+    background-color: rgb(219, 158, 16);
+    padding: 10px 10px;
+    border-radius: 10px;
+}
+
+.nav .merchandise{
+    background: brown;
+    color: white;
+    padding: 10px 10px;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+.left{
+    color: white;
+    font-size: xx-large;
+    margin-bottom: 50px;
+    margin-top: 100px;
+
+} */
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+nav img{
+    width:90px;
+    height: 90px;
+    object-fit: contain;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+nav ul li{
+    list-style: none;
+    margin-left: 30px;
+}
+
+nav ul li a{
+    color: brown;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a button{
+    padding: 10px;
+    margin-left: 20px;
+    background-color: brown;
+    border: none;
+    color: white;
+    border-radius: 30px;
+}
+
+.hero{
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.811),rgba(0,0,0,0.5)),url(images/bgimg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 670px;
+    color: white;
+    padding-left: 40px;
+}
+
+.hero h2{
+    font-size: 70px;
+    width: 30%;
+    padding-top: 200px;
+}
+
+.hero button{
+    padding: 10px 30px 10px 30px;
+    border-radius: 20px;
+    border: none;
+    background-color: brown;
+    color: white;
+}

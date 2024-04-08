@@ -1,0 +1,190 @@
+/* *{
+    margin:0; 
+    padding:0;  
+   }
+   .container{
+       height: 100vh;
+       width: 100%;
+     
+   }
+   .header{
+       text-align: center;
+       color: white;
+       display: flex;
+   }
+   .header img{
+       margin-left: 10px;
+   }
+   .nav{
+       background: white;
+       text-align: center;
+       padding-top: 14px;
+       padding-bottom: 14px;
+       width: 1024px; 
+       margin: auto;
+       padding-left: 15px;
+   }
+   .nav a{
+       color: brown;
+       padding-left: 20px;
+       text-decoration: none;
+   }
+   .nav a:hover{
+       background-color: rgb(219, 158, 16);
+       padding: 10px 10px;
+       border-radius: 10px;
+   }
+   
+   .nav .merchandise{
+       background: brown;
+       color: white;
+       padding: 10px 10px;
+       border-radius: 10px;
+       margin-left: 20px;
+   }
+   
+.main{
+    display: flex;
+    height: 500px;
+    gap: 20px;
+
+}
+.left{
+    width: 50%;
+    margin-left: 20px;
+
+}
+.right{
+    width: 50%;
+}
+input{
+    padding: 5px 40px;
+}
+.what input{
+    padding: 30px 40px;
+}
+.submit a{
+    background: brown;
+    color: azure;
+    padding: 10px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.submit a:hover{
+    background-color: rgb(219, 158, 16);
+    border-radius: 10px;
+} */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+nav img {
+  width: 90px;
+  height: 90px;
+  object-fit: contain;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+nav ul li {
+  list-style: none;
+  margin-left: 30px;
+}
+
+nav ul li a {
+  color: brown;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a button {
+  padding: 10px;
+  margin-left: 20px;
+  background-color: brown;
+  border: none;
+  color: white;
+  border-radius: 30px;
+}
+
+.main {
+  align-items: center;
+  display: flex;
+  padding-left: 20px;
+  padding-right: 20px;
+  justify-self: center;
+}
+
+.main .left {
+  background-color: brown;
+  height: 470px;
+  border-radius: 20px;
+  color: white;
+  padding: 20px;
+}
+
+.main .left hgroup {
+  margin-top: 100px;
+}
+
+.main .left h1 {
+  font-size: 60px;
+}
+
+.main .left p {
+  width: 80%;
+}
+
+.main .right {
+  background-color: white;
+  margin-left: -40px;
+  padding: 40px;
+  border-radius: 20px;
+}
+
+.main .right label {
+  font-size: 12px;
+}
+.main .right input {
+  height: 40px;
+  width: 300px;
+  background-color: rgba(165, 42, 42, 0.431);
+  border: none;
+  border-radius: 10px;
+  outline: none;
+  padding-left: 20px;
+}
+
+.main .right textarea {
+  height: 70px;
+  resize: none !important;
+  width: 290px;
+  background-color: rgba(165, 42, 42, 0.431);
+  border: none;
+  border-radius: 10px;
+  outline: none;
+  padding-left: 20px;
+  padding-right: 10px;
+  padding-top: 10px;
+}
+
+.submit {
+  background-color: brown;
+  padding: 10px 20px 10px 20px;
+  border: none;
+  color: white;
+  border-radius: 20px;
+}
